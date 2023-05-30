@@ -239,11 +239,12 @@ body {
     }
   }
   
-/**********************seccion registro*******************************************/
+/**********************seccion registro***********************/
 #registro {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  background-color: #D3D0CB;
   }
   
   #registro form {
@@ -277,7 +278,6 @@ body {
   width: 150px;
   height: 40px;
   border-radius: 20px;
-  border: none;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color:#C27D7D;
@@ -290,4 +290,39 @@ body {
   #registro input[type=submit]:hover {
   background-color:#C27D7D;
   transform: scale(1.1);
+  }
+
+  /**************Estilos para el formulario de contacto*****************/
+ #contacto {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #D3D0CB;
+  }
+  form label {
+  display: block;
+  margin-bottom: 20px;
+  }
+
+  form input, form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  }
+ 
+  form button {
+  background-color: #C27D7D;
+  color:black;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+  form button:hover {
+  background-color: #C27D7D;
   }
