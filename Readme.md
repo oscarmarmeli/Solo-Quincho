@@ -25,5 +25,14 @@ Muchas gracias!
 # Link de Figma
 [Link Diseño Figma "SoloQuincho"](https://www.figma.com/file/kUZNGqNlKHxvI3xaJBf5ST/Dise%C3%B1o-e-commerce-OscarMarmeli?type%3Ddesign%26node-id%3D0-1%26t%3D1KHIjD4YdHNJeAPo-0)
 
-# Adjunto página de inicio "Index.html" (en desarrollo).
+# Adjunto página de inicio "Index.html".
+# Adjunto formulario Registro.
+# Adjunto formulario Contacto.
 # Adjunto Carpeta de Imágenes y Carpeta de Figma con los diseños en PNG.
+![Imagen Figma Home](figma/HOME%20-%20desktop.png)
+![Imagen Figma Registro](figma/REGISTER.png)
+![Imagen Figma Login](figma/LOGIN.png)
+![Imagen Figma Detalle Producto](figma/DETAIL-PRODUCT.png)
+![Imagen Figma Carrito](figma/CARRITO.png)
+
+
