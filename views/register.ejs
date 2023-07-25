@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoloQuincho</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <% if(errors) { %>
+  <ul>
+    <% errors.forEach(error => {%>
+    <li><%= error.msg %></li>
+    <% }); %>
+  </ul>
+  <% } %>
+
+  <body>
+    <nav class="navbar">
+      <a href="/index" class="navbar__link">SoloQuincho</a>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/index" class="navbar__link">Inicio</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/registro" class="navbar__link">Registro</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/login" class="navbar__link">Iniciar Sesión</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link">Productos</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/contacto" class="navbar__link">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <div href="/index" class="navbar__link">
+      <img src="/images/parrillas-logo.png" alt="logo" />
+    </div>
+    <section class="container-reg">
+      <form class="card-reg" action="/registro" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="form-group">
+            <label for="password_confirm">Confirmar contraseña:</label>
+            <input
+              type="password"
+              id="password_confirm"
+              name="password_confirm"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="footer">
+        <ul class="footer_sq1">
+          <h3>
+            Copyright 2023 - www.soloquincho.com.ar - Todos los derechos
+            reservados
+          </h3>
+        </ul>
+        <ul class="footer_sq1">
+          <h3>Síguenos en las redes</h3>
+        </ul>
+        <div class="footer_sq1">
+          <img src="/images/Twitter.png" alt="Twitter" />
+          <img src="/images/Facebook.png" alt="Facebook" />
+          <img src="/images/Instagram.png" alt="Instagram" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
