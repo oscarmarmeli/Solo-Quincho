@@ -4,11 +4,11 @@
     "password": "$2b$10$3CeqdO/yoe32G1DqDZlY1eTKHMoFakISRmTwzBUVwFqw4d7Ycs8rO"
   },
   {
-    "email": "moroznorma@gmail.com",
-    "password": "$2b$10$I4KCFI/8z3T.61BDOY9//.5P6tKVBlYfQfC27fQyTxpEtL8zRiopa"
-  },
-  {
     "email": "oscarmarmeli@yahoo.com",
     "password": "$2b$10$i2U6rpE6hhMtzkJxaqJWNONsdH09eqEuOU7tzSkOVQtj0lJ/RUQRO"
+  },
+  {
+    "email": "oscarmarmeli@gmail.com",
+    "password": "$2b$10$nj0EW2kaMX86.O6fcJopv.uNlXIOILd/QPIpbehU0gDDgpcXfJTlS"
   }
 ]
